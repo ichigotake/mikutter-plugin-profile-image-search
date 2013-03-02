@@ -10,7 +10,7 @@ _元画像がズバリ出てきたりする事はほぼありません！_
 
 ## INSTALL
 
-プラグインディレクトリに*profile_image_search/*というディレクトリ名でダウンロードします
+プラグインディレクトリに *profile_image_search/* というディレクトリ名でダウンロードします
 
     $ git clone https://github.com/ichigotake/mikutter-plugin-prifile-image-search ~/.mikutter/plugin/profile_image_search
 
@@ -20,5 +20,5 @@ http://mikutter.hachune.net/
 
 ## AUTHOR
 
-(@ichigotake)[https://twitter.com/ichigotake]
+[@ichigotake](https://twitter.com/ichigotake)
 
