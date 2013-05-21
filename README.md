@@ -18,7 +18,7 @@ Twitterアイコンの検索精度は *Google画像検索 > 二次元画像詳�
 
 プラグインディレクトリに *profile_image_search/* というディレクトリ名でダウンロードします
 
-    $ git clone https://github.com/ichigotake/mikutter-plugin-prifile-image-search ~/.mikutter/plugin/profile_image_search
+    $ git clone https://github.com/ichigotake/mikutter-plugin-profile-image-search ~/.mikutter/plugin/profile_image_search
 
 ## SEE ALSO
 
