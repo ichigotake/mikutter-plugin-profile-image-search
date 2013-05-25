@@ -1,10 +1,12 @@
-# プロフィール画像検索プラグイン
+# NAME
 
-## DESCRIPTION
+profile\_image\_search - プロフィール画像検索プラグイン for mikutter
+
+# DESCRIPTION
 
 mikutterのタイムライン上のツイートの右クリックメニューから、発言者のプロフィール画像を画像検索します
 
-### 対応検索エンジン
+# SEARCH ENGINE
 
 - [Google画像検索](https://images.google.com/)
 
@@ -14,17 +16,25 @@ Twitterアイコンの検索精度は *Google画像検索 > 二次元画像詳�
 
 (作者はその人を調べるとっかかりとして利用したり、よくわからない検索結果を見る事を楽しんでます)
 
-## INSTALL
+# INSTALL
 
 プラグインディレクトリに *profile_image_search/* というディレクトリ名でダウンロードします
 
     $ git clone https://github.com/ichigotake/mikutter-plugin-profile-image-search ~/.mikutter/plugin/profile_image_search
 
-## SEE ALSO
+このプラグインは *mechanize* と *nokogiri* を利用しているので、依存モジュールをインストールする
 
-http://mikutter.hachune.net/
+    $ cd ~/.mikutter/plugin/profile_image_search && bundle install
+    
+    # or
 
-## AUTHOR
+    $ gem install nokogiri mechanize
+
+# SEE ALSO
+
+[mikutter](http://mikutter.hachune.net/)
+
+# AUTHOR
 
 [@ichigotake](https://twitter.com/ichigotake)
 
