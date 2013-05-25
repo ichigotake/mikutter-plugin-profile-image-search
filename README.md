@@ -10,7 +10,7 @@ mikutterのタイムライン上のツイートの右クリックメニューか
 
 - [Google画像検索](https://images.google.com/)
 
-- [二次元画像詳細建策](http://www.ascii2d.net/)
+- [二次元画像詳細検索](http://www.ascii2d.net/)
 
 Twitterアイコンの検索精度は *Google画像検索 > 二次元画像詳細検索*
 
