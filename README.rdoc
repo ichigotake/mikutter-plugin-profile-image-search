@@ -38,3 +38,7 @@ Twitterアイコンの検索精度は *Google画像検索 > 二次元画像詳�
 
 {ichigotake}[https://twitter.com/ichigotake]
 
+== License
+
+{MIT LICENSE}[http://opensource.org/licenses/MIT]
+
