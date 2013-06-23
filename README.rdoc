@@ -1,22 +1,22 @@
-# NAME
+= profile\_image\_search
 
-profile\_image\_search - プロフィール画像検索プラグイン for mikutter
+プロフィール画像検索プラグイン for mikutter
 
-# DESCRIPTION
+== Description
 
 mikutterのタイムライン上のツイートの右クリックメニューから、発言者のプロフィール画像を画像検索します
 
-# SEARCH ENGINE
+== Search Engine
 
-- [Google画像検索](https://images.google.com/)
+- {Google画像検索}[https://images.google.com/]
 
-- [二次元画像詳細検索](http://www.ascii2d.net/)
+- {二次元画像詳細検索}[http://www.ascii2d.net/]
 
 Twitterアイコンの検索精度は *Google画像検索 > 二次元画像詳細検索*
 
 (作者はその人を調べるとっかかりとして利用したり、よくわからない検索結果を見る事を楽しんでます)
 
-# INSTALL
+== Install
 
 プラグインディレクトリに *profile_image_search/* というディレクトリ名でダウンロードします
 
@@ -30,11 +30,11 @@ Twitterアイコンの検索精度は *Google画像検索 > 二次元画像詳�
 
     $ gem install nokogiri mechanize
 
-# SEE ALSO
+== See Also
 
-[mikutter](http://mikutter.hachune.net/)
+{mikutter}[http://mikutter.hachune.net/]
 
-# AUTHOR
+== Author
 
-[@ichigotake](https://twitter.com/ichigotake)
+{ichigotake}[https://twitter.com/ichigotake]
 
