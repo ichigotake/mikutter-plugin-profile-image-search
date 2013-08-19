@@ -2,14 +2,6 @@
 
 プロフィール画像検索プラグイン for mikutter
 
-== Attention
-
-    ＿人人人人人人人人人人人＿
-    ＞ Twitter API 1.1未対応 ＜
-    ￣^Y^Y^Y^Y^Y^Y^Y^Y^Y^Y^￣
-
-なので動きません
-
 == Description
 
 mikutterのタイムライン上のツイートの右クリックメニューから、発言者のプロフィール画像を画像検索します
