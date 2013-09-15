@@ -20,13 +20,9 @@ Twitterアイコンの検索精度は *Google画像検索 > 二次元画像詳�
 
 プラグインディレクトリに *profile_image_search/* というディレクトリ名でダウンロードします
 
-    $ git clone https://github.com/ichigotake/mikutter-plugin-profile-image-search ~/.mikutter/plugin/profile_image_search
+    $ git clone git://github.com/ichigotake/mikutter-plugin-profile-image-search ~/.mikutter/plugin/profile_image_search
 
 このプラグインは *mechanize* と *nokogiri* を利用しているので、依存モジュールをインストールする
-
-    $ cd ~/.mikutter/plugin/profile_image_search && bundle install
-    
-    # or
 
     $ gem install nokogiri mechanize
 
