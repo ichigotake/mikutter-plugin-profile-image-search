@@ -15,9 +15,13 @@ Plugin.create(:profile_image_search) do
 
         url = false
         image_url = result[:profile_image_url]
-        case engine
-        when SEARCH_ENGINE_GOOGLE then url = "https://images.google.com/searchbyimage?image_url=#{image_url}"
-        when SEARCH_ENGINE_ASCII2D then url = search_ascii2d(image_url)
+        begin
+          case engine
+          when SEARCH_ENGINE_GOOGLE then url = "https://images.google.com/searchbyimage?image_url=#{image_url}"
+          when SEARCH_ENGINE_ASCII2D then url = search_ascii2d(image_url)
+          end
+        rescue
+          Plugin.activity :system, "「二次元詳細画像検索( http://www.ascii2d.net/ )」への接続に失敗しました"
         end
 
         return unless url
