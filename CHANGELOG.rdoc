@@ -1,4 +1,8 @@
 
+- v 1.5
+ - bugfix: crash when connection failed
+ - update: README
+
 - v 1.4
   - add: MIT LICENSE
   - update: document format to rdoc
