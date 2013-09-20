@@ -1,4 +1,7 @@
 
+- v 1.6
+  - update: copyright
+
 - v 1.5
  - bugfix: crash when connection failed
  - update: README
